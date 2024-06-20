@@ -4,8 +4,8 @@ import { ProdutosService } from 'src/app/services/produtos.service';
 
 @Component({
   selector: 'app-lista-usuario',
-  templateUrl: './lista-usuario.component.html',
-  styleUrls: ['./lista-usuario.component.css']
+  templateUrl: './lista-produtos.component.html',
+  styleUrls: ['./lista-produtos.component.css']
 })
  export class ListaProdutosComponent implements OnInit {
 
