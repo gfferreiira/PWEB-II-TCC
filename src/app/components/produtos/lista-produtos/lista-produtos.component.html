@@ -18,8 +18,8 @@
       <tr *ngFor="let prod of listaProdutos">
         <td>{{prod.id}}</td>
         <td>{{prod.nome}} </td>
-        <td> {{prod.validade | date: "shortDate"}} </td>
-        <td>{{prod.precoProduto | currency: "BRL"}} </td>
+        <td> {{prod.validade }} </td>
+      
         <td>
           <button class="btn bt-warning"
                    routerLink="/produtos/atualizar/{{prod.id}}">
